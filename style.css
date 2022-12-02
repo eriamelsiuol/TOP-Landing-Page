@@ -1,0 +1,158 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-right: 50px solid black ;
+    border-left: 50px solid black ;
+    max-width: fit-content;
+}
+
+.lr75padding {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.header,
+.footer,
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+header {
+    padding: 10px 0px;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.captions {
+    text-align: center;
+    color: darkgray;
+    font-size: medium;
+}
+.header {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.heroLeftContainer {
+    align-items: stretch;
+    max-width: 50%;
+}
+.heroRightContainer {
+    align-items:flex-end;
+    max-width: 70%;
+    padding-right: 0;
+}
+.rowEvenSpacingCenter {
+    justify-content: space-between;
+    gap: 5px;
+    padding: 20px 150px;
+}
+
+.heroImagePlaceholder {
+    background-color: #99999b;
+    height: 200px;
+    width: 400px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.heroMainText {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.square {
+    height: 90px;
+    width: 90px;
+    border-radius: 12px;
+    border-color: #3882f6;
+    border-width: 3px;
+    border-style: solid;
+
+}
+.logoText {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.informationHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+}
+
+li { 
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.footer {
+    color: white;
+}
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 24px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.quoteContainer {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-style:italic;
+    font-weight: light;
+    font-size: 36px;
+    padding: 125px;
+}
+.callToActionContainer {
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 5px;
+    color: white;
+    align-items: space-between;
+    justify-content:space-evenly;
+}
+.whiteButtonBorder {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+}
