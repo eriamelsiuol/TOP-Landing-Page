@@ -119,6 +119,9 @@ a {
 
 .footer {
     color: white;
+    align-items: center;
+    padding: 25px;
+    font-weight:400;
 }
 button {
     background-color: #3882f6;
